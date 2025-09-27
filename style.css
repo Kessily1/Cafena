@@ -35,6 +35,7 @@ header{
     top: 0; left: 0; right: 0;
     z-index: 99;
     border-bottom: var(--border);
+    background-color: var(--bg);
    
 }
 
@@ -80,6 +81,9 @@ header{
     margin-top: 1rem;
     display: inline-block;
 }
+.btn:hover{
+   letter-spacing: 0.1rem;
+}
 
 .home-container{
     background: url("./img/home-img.jpg");
@@ -110,4 +114,47 @@ header{
     font-weight: 100;
     line-height: 1.8;
     padding: 1rem 0;
+}
+
+.title{
+    font-size: 4rem;
+    color: var(--main-color);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+
+.title span{
+    color: #fff;
+    text-transform: uppercase;
+
+
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    background-color: var(--black);
+    gap: 1.5rem;
+   
+}
+
+.about .row.content{
+    padding: 2rem;
+}
+
+.about .row.content h3 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.about .row.content p {
+    font-size: 1.6rem;
+    color: #fff;
+    padding: 1rem 0;
+    line-height: 1.8;
+    text-align: justify;
+
+
+
 }
