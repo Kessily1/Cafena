@@ -154,7 +154,107 @@ header{
     padding: 1rem 0;
     line-height: 1.8;
     text-align: justify;
-
-
+}
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
 
 }
+
+.menu .box-container .box{
+    text-align: center;
+    border: var(--border);
+    padding: 5rem;
+    cursor: pointer;
+   
+}
+
+.menu .box-container .box:hover{
+   background-color: #fff;
+}
+
+.menu .box-container .box img{
+    height: 10rem;
+}
+.menu .box-container .box h3{
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+.menu .box-container .box .price{
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 0.5rem 0;
+}
+.menu .box-container .box .price span{
+font-size: 1.5rem;
+text-transform: line-through;
+font-weight: lighter;
+}
+
+.menu .box-container .box:hover>*{
+    color: var(--black);
+}
+
+.reviews .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+
+}
+.reviews .box-container .box{
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 2rem;
+    cursor: pointer;
+   
+}
+.reviews .box-container .box p{
+    font-size: 1.5rem;
+    color: #fff;
+    line-height: 1.8;
+    padding: 2rem 0;
+    font-weight: lighter;
+}
+
+.reviews .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+ .reviews .box-container .box .user{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: var(--border);
+
+ }
+
+ .address{
+   display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .footer{
+     text-align: center;
+
+ }
+    .footer .share{
+        padding: 1rem 0;
+        
+    }
+    .footer .share img{
+        margin: 0.3rem;
+        cursor: pointer;
+        border-radius: 50%;
+        padding: 1rem;
+       
+    }
+
+        .footer .share img:hover{
+            background-color: var(--main-color);
+        }
+
